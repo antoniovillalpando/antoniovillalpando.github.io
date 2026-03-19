@@ -18,11 +18,6 @@ Aquí indexo lo que voy creando.
   
 ---
 
-## Contenido destacado/reciente
-- Libros de texto gratuitos: ¿El ancla o la vela de la Nueva Escuela Mexicana?: https://korpus21.cmq.edu.mx/index.php/ohtli/article/view/199 
-
----
-
 ## Presencia editorial y medios
 
 - [Revista Este País] Siete tendencias sociales que marcaron el cuarto de siglo: https://estepais.com/tendencias_y_opiniones/siete-tendencias-sociales-siglo-xxi/
