@@ -3,18 +3,21 @@
 </p>
 
 # Antonio Villalpando-Acuña
+https://orcid.org/0000-0002-3058-986X
 
-Construyo modelos conceptuales. Este espacio es un índice de lo que estoy construyendo.
+Modelador empírico y arquitecto conceptual.
+Aquí indexo lo que voy creando y sus aristas.
 
 ---
 
-## RR.SS.
-- Substack: https://substack.com/@avillalpando
-- IG: https://www.instagram.com/avillalpandoa/
+## Redes
+- En revistas académicas (Google Scholar): https://scholar.google.com/citations?hl=en&user=QeNgcU0AAAAJ
+- Preprints en inglés (SSRN): https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=10623997
+- Ideas en desarrollo (HackMD): https://hackmd.io/@antoniovillalpando
+- Escritura libre (Substack): https://substack.com/@avillalpando
+- Galería (Instagram): https://www.instagram.com/avillalpandoa/
   
-
 ---
-
 
 ## Artículos
 - Libros de texto gratuitos: ¿El ancla o la vela de la Nueva Escuela Mexicana?: https://korpus21.cmq.edu.mx/index.php/ohtli/article/view/199 
