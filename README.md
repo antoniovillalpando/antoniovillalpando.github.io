@@ -25,3 +25,8 @@ Aquí indexo lo que voy creando.
 
 ## Presencia editorial (selección; para más detalle, googléame)
 - [Revista Este País] Siete tendencias sociales que marcaron el cuarto de siglo: https://estepais.com/tendencias_y_opiniones/siete-tendencias-sociales-siglo-xxi/
+- [Revista Este País] La Inteligencia Artificial: pavimentando el camino hacia la oscura utopía del capitalismo tardío: https://estepais.com/tendencias_y_opiniones/linteligencia-artificial-pavimentando-camino-oscura-utopia-capitalismo-tardio/
+- [Revista Este País] La crisis de la masculinidad al servicio de la ultraderecha: Trump y la psicología freudiana: https://estepais.com/tendencias_y_opiniones/crisis-masculinidad-ultraderecha/
+- [Nexos] Amores que matan: feminicidios en México: https://redaccion.nexos.com.mx/amores-que-matan-feminicidios-en-mexico/
+- [Nexos] Morir dos veces: riesgo inminente para millones de personas en el México del covid-19: https://redaccion.nexos.com.mx/morir-dos-veces-riesgo-inminente-para-millones-de-personas-en-el-mexico-del-covid-19/
+- [Nexos] El otoño de las democracias liberales, incluida la mexicana: https://redaccion.nexos.com.mx/el-otono-de-las-democracias-liberales-incluida-la-mexicana/
