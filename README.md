@@ -4,25 +4,32 @@
 
 # Antonio Villalpando-Acuña
 
-Trabajo en la intersección entre política pública, modelos cuantitativos y sistemas complejos.  
-Este espacio funciona como índice mínimo de lo que estoy construyendo.
+Construyo modelos conceptuales. Este espacio es un índice de lo que estoy construyendo.
 
 ---
 
-## Notas técnicas
-- Modelos espaciales y optimización (Quarto): https://TU-USUARIO.github.io/
-- Working notes (en desarrollo): https://TU-LINK
+## RR.SS.
+- Substack: https://substack.com/@avillalpando
+- IG: https://www.instagram.com/avillalpandoa/
+  
 
 ---
 
-## Escritura
+
+## Artículos
+- Libros de texto gratuitos: ¿El ancla o la vela de la Nueva Escuela Mexicana?: https://korpus21.cmq.edu.mx/index.php/ohtli/article/view/199 
+- Modelando el cortejo humano: negociación e intercambio en las relaciones de pareja desde la perspectiva de la sociología económica: https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0187-01732012000200002
+
+---
+
+## Divulgación/comentario
 - Substack (ensayos y piezas personales): https://TU-SUBSTACK
 - Artículos publicados: https://TU-LINK
 
 ---
 
-## Proyectos
-- Modelos aplicados y prototipos: https://TU-LINK
+## Escritura libre
+
 - Visualizaciones y mapas: https://TU-LINK
 
 ---
