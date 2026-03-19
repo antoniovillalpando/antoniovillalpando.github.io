@@ -1,4 +1,4 @@
-# Antonio Villalpando Acuña
+# Antonio Villalpando-Acuña
 
 Trabajo en la intersección entre política pública, modelos cuantitativos y sistemas complejos.  
 Este espacio funciona como índice mínimo de lo que estoy construyendo.
