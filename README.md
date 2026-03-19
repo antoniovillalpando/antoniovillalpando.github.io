@@ -3,10 +3,9 @@
 </p>
 
 # Antonio Villalpando-Acuña
-# https://orcid.org/0000-0002-3058-986X
 
-## Modelador empírico y arquitecto conceptual.
-## Aquí indexo lo que voy creando y sus aristas.
+Modelador empírico y arquitecto conceptual.
+Aquí indexo lo que voy creando.
 
 ---
 
