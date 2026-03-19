@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/soVKpSv6_400x400" width="400">
+</p>
+
 # Antonio Villalpando-Acuña
 
 Trabajo en la intersección entre política pública, modelos cuantitativos y sistemas complejos.  
