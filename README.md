@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/soVKpSv6_400x400" width="400">
+  <img src="images/soVKpSv6_400x400.jpg" width="400">
 </p>
 
 # Antonio Villalpando-Acuña
