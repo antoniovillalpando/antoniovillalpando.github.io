@@ -2,7 +2,8 @@
   <img src="images/soVKpSv6_400x400.jpg" width="400">
 </p>
 
-# Antonio Villalpando-Acuña https://orcid.org/0000-0002-3058-986X
+# Antonio Villalpando-Acuña
+# https://orcid.org/0000-0002-3058-986X
 
 Modelador empírico y arquitecto conceptual.
 Aquí indexo lo que voy creando y sus aristas.
