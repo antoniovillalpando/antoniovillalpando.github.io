@@ -1,15 +1,556 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Antonio Villalpando-Acuña</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Antonio Villalpando-Acuña. Investigación, análisis y modelado en ciencias sociales."
+  >
+
+  <title>Antonio Villalpando-Acuña</title>
+
+  <style>
+    :root {
+      --texto: #20252b;
+      --secundario: #626b73;
+      --enlace: #315f4c;
+      --borde: #e1e4e7;
+      --fondo-suave: #f7f8f7;
+      --blanco: #ffffff;
+      --ancho: 900px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--texto);
+      background: var(--blanco);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--enlace);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contenedor {
+      width: min(var(--ancho), calc(100% - 38px));
+      margin: 0 auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--borde);
+      backdrop-filter: blur(10px);
+    }
+
+    nav {
+      min-height: 62px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 26px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--texto);
+      font-size: 14px;
+    }
+
+    .portada {
+      padding: 76px 0 64px;
+      text-align: center;
+    }
+
+    .foto {
+      display: block;
+      width: min(400px, 86vw);
+      height: auto;
+      margin: 0 auto 34px;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(42px, 7vw, 68px);
+      font-weight: 500;
+      line-height: 1.05;
+    }
+
+    .subtitulo {
+      margin: 20px 0 0;
+      font-size: clamp(20px, 2.5vw, 27px);
+      font-weight: 700;
+    }
+
+    .lisa {
+      margin: 27px 0 0;
+      font-size: 18px;
+    }
+
+    .cargo {
+      margin: 6px 0 0;
+      font-weight: 700;
+    }
+
+    .contacto-portada {
+      margin: 26px 0 0;
+    }
+
+    .contacto-portada strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    section {
+      padding: 60px 0;
+      border-top: 1px solid var(--borde);
+    }
+
+    section:nth-of-type(even) {
+      background: var(--fondo-suave);
+    }
+
+    h2 {
+      margin: 0 0 28px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      font-weight: 500;
+    }
+
+    h3 {
+      margin: 40px 0 15px;
+      font-size: 22px;
+    }
+
+    h3:first-of-type {
+      margin-top: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    .redes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px 32px;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .redes li {
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--borde);
+    }
+
+    .redes span {
+      color: var(--secundario);
+    }
+
+    .publicaciones {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .publicaciones li {
+      padding: 13px 0;
+      border-bottom: 1px solid var(--borde);
+    }
+
+    .publicaciones a {
+      color: var(--texto);
+    }
+
+    .publicaciones a:hover {
+      color: var(--enlace);
+    }
+
+    footer {
+      padding: 34px 0;
+      color: var(--secundario);
+      text-align: center;
+      font-size: 14px;
+      border-top: 1px solid var(--borde);
+    }
+
+    @media (max-width: 680px) {
+      .redes {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        gap: 14px;
+        padding: 13px 0;
+      }
+
+      section {
+        padding: 48px 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>Funciona</h1>
+  <header>
+    <div class="contenedor">
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#redes">Redes</a>
+        <a href="#publicaciones">Publicaciones</a>
+        <a href="#medios">Medios</a>
+      </nav>
+    </div>
+  </header>
 
-<img src="images/avatar3.jpg" width="400">
+  <main>
+
+    <section class="portada" id="inicio">
+      <div class="contenedor">
+
+        <img
+          class="foto"
+          src="images/avatar3.jpg"
+          alt="Antonio Villalpando-Acuña"
+        >
+
+        <h1>Antonio Villalpando-Acuña</h1>
+
+        <p class="subtitulo">
+          Investigación, análisis y modelado en ciencias sociales
+        </p>
+
+        <p class="lisa">
+          <a href="https://antoniovillalpando.github.io/lisa/">
+            Laboratorio de Investigación Social Avanzada (LISA)
+          </a>
+        </p>
+
+        <p class="cargo">
+          Director y Oficial Científico en Jefe
+        </p>
+
+        <p class="contacto-portada">
+          <strong>Contacto</strong>
+
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=profesorvillalpando@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            profesorvillalpando@gmail.com
+          </a>
+        </p>
+
+      </div>
+    </section>
+
+    <section id="redes">
+      <div class="contenedor">
+
+        <h2>Redes</h2>
+
+        <ul class="redes">
+          <li>
+            <span>En revistas académicas:</span>
+            <a
+              href="https://scholar.google.com/citations?hl=en&user=QeNgcU0AAAAJ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Scholar
+            </a>
+          </li>
+
+          <li>
+            <span>Preprints en inglés:</span>
+            <a
+              href="https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=10623997"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SSRN
+            </a>
+          </li>
+
+          <li>
+            <span>Ideas en desarrollo:</span>
+            <a
+              href="https://hackmd.io/@antoniovillalpando"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              HackMD
+            </a>
+          </li>
+
+          <li>
+            <span>Escritura libre:</span>
+            <a
+              href="https://substack.com/@avillalpando"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Substack
+            </a>
+          </li>
+
+          <li>
+            <span>Galería:</span>
+            <a
+              href="https://www.instagram.com/avillalpandoa/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+
+          <li>
+            <span>Contacto:</span>
+            <a
+              href="https://www.facebook.com/antonio.villalpando.acuna/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="publicaciones">
+      <div class="contenedor">
+
+        <h2>Algo de mi presencia editorial y medios</h2>
+
+        <h3>Revista de la Universidad de México (UNAM)</h3>
+
+        <ul class="publicaciones">
+          <li>
+            <a
+              href="https://www.revistadelauniversidad.mx/articles/0ced421d-7fc1-44c6-b02c-6bcaab2a03da/ni-tu-ni-yo-ni-el-estado-mexicano-entendemos-a-la-generacion-z"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ni tú ni yo ni el Estado mexicano entendemos a la generación Z
+            </a>
+          </li>
+        </ul>
+
+        <h3>Revista Este País</h3>
+
+        <ul class="publicaciones">
+          <li>
+            <a href="https://estepais.com/tendencias_y_opiniones/siete-tendencias-sociales-siglo-xxi/" target="_blank" rel="noopener noreferrer">
+              Siete tendencias sociales que marcaron el cuarto de siglo
+            </a>
+          </li>
+
+          <li>
+            <a href="https://estepais.com/tendencias_y_opiniones/linteligencia-artificial-pavimentando-camino-oscura-utopia-capitalismo-tardio/" target="_blank" rel="noopener noreferrer">
+              La Inteligencia Artificial: pavimentando el camino hacia la oscura utopía del capitalismo tardío
+            </a>
+          </li>
+
+          <li>
+            <a href="https://estepais.com/tendencias_y_opiniones/crisis-masculinidad-ultraderecha/" target="_blank" rel="noopener noreferrer">
+              La crisis de la masculinidad al servicio de la ultraderecha: Trump y la psicología freudiana
+            </a>
+          </li>
+
+          <li>
+            <a href="https://estepais.com/ambiente/costos-ecologicos-inteligencia-artificial-otro-concepto-factura-gente-paises-mas-vulnerables/" target="_blank" rel="noopener noreferrer">
+              Los costos ecológicos de la Inteligencia Artificial: otro concepto en la factura de la gente y los países más vulnerables
+            </a>
+          </li>
+
+          <li>
+            <a href="https://estepais.com/tendencias_y_opiniones/estepa-o-desierto-que-le-depara-a-la-economia-familiar-el-2025/" target="_blank" rel="noopener noreferrer">
+              ¿Estepa o desierto? Qué le depara a la economía familiar el 2025
+            </a>
+          </li>
+
+          <li>
+            <a href="https://estepais.com/tendencias_y_opiniones/sentimientos-campanas-2024/" target="_blank" rel="noopener noreferrer">
+              Entre la ansiedad y la confianza: los sentimientos en las campañas de 2024
+            </a>
+          </li>
+
+          <li>
+            <a href="https://estepais.com/home-slider/impuestos-relacion-toxica/" target="_blank" rel="noopener noreferrer">
+              Tenemos que hablar de impuestos: una relación tóxica
+            </a>
+          </li>
+
+          <li>
+            <a href="https://estepais.com/impreso/cdmx-perdedores-polarizacion/" target="_blank" rel="noopener noreferrer">
+              La CDMX: los perdedores de la polarización
+            </a>
+          </li>
+
+          <li>
+            <a href="https://estepais.com/tendencias_y_opiniones/politica/la-politica-de-lo-trivial/" target="_blank" rel="noopener noreferrer">
+              La política de lo trivial
+            </a>
+          </li>
+        </ul>
+
+        <h3>Nexos</h3>
+
+        <ul class="publicaciones">
+          <li>
+            <a href="https://redaccion.nexos.com.mx/amores-que-matan-feminicidios-en-mexico/" target="_blank" rel="noopener noreferrer">
+              Amores que matan: feminicidios en México
+            </a>
+          </li>
+
+          <li>
+            <a href="https://redaccion.nexos.com.mx/morir-dos-veces-riesgo-inminente-para-millones-de-personas-en-el-mexico-del-covid-19/" target="_blank" rel="noopener noreferrer">
+              Morir dos veces: riesgo inminente para millones de personas en el México del covid-19
+            </a>
+          </li>
+
+          <li>
+            <a href="https://redaccion.nexos.com.mx/el-otono-de-las-democracias-liberales-incluida-la-mexicana/" target="_blank" rel="noopener noreferrer">
+              El otoño de las democracias liberales, incluida la mexicana
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.nexos.com.mx/la-pedagogia-del-terror-sintoma-de-un-mexico-toxico/" target="_blank" rel="noopener noreferrer">
+              La pedagogía del terror: síntoma de un México tóxico
+            </a>
+          </li>
+
+          <li>
+            <a href="https://educacion.nexos.com.mx/la-economia-sombra-de-la-educacion-basica-y-la-ampliacion-de-las-brechas-educativas/" target="_blank" rel="noopener noreferrer">
+              La economía sombra de la educación básica y la ampliación de las brechas educativas
+            </a>
+          </li>
+
+          <li>
+            <a href="https://redaccion.nexos.com.mx/mexico-una-eficiente-fabrica-de-criminales-violentos/" target="_blank" rel="noopener noreferrer">
+              México: una eficiente fábrica de criminales violentos
+            </a>
+          </li>
+
+          <li>
+            <a href="https://redaccion.nexos.com.mx/el-liberalismo-del-siglo-xviii-no-es-la-cura-del-neoliberalismo-del-siglo-xxi/" target="_blank" rel="noopener noreferrer">
+              El liberalismo del siglo XVIII no es la cura del neoliberalismo del siglo XXI
+            </a>
+          </li>
+
+          <li>
+            <a href="https://redaccion.nexos.com.mx/cuando-ser-un-monstruo-es-lo-normal-la-epidemia-del-feminicidio-en-mexico/" target="_blank" rel="noopener noreferrer">
+              Cuando ser un monstruo es lo normal: la epidemia del feminicidio en México
+            </a>
+          </li>
+
+          <li>
+            <a href="https://redaccion.nexos.com.mx/amlo-la-politica-en-los-tiempos-de-la-colera/" target="_blank" rel="noopener noreferrer">
+              AMLO: la política en los tiempos de la cólera
+            </a>
+          </li>
+
+          <li>
+            <a href="https://redaccion.nexos.com.mx/el-periodismo-autentico-victima-del-mortal-encanto-de-la-oligarquia/" target="_blank" rel="noopener noreferrer">
+              El periodismo auténtico, víctima del mortal encanto de la oligarquía
+            </a>
+          </li>
+
+          <li>
+            <a href="https://anticorrupcion.nexos.com.mx/sobre-la-corrupcion-nacemos-corruptibles/" target="_blank" rel="noopener noreferrer">
+              Sobre la corrupción: nacemos corruptibles
+            </a>
+          </li>
+
+          <li>
+            <a href="https://contralacorrupcion.mx/corrupcion-receta-magica/" target="_blank" rel="noopener noreferrer">
+              Sobre la Corrupción II: ¿Una receta mágica?
+            </a>
+          </li>
+
+          <li>
+            <a href="https://redaccion.nexos.com.mx/nuestro-11-de-septiembre-notas-de-politica-publica-sobre-desigualdad/" target="_blank" rel="noopener noreferrer">
+              Nuestro 11 de septiembre. Notas de política pública sobre desigualdad
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="medios">
+      <div class="contenedor">
+
+        <h2>Medios</h2>
+
+        <ul class="publicaciones">
+          <li>
+            <a
+              href="https://www.facebook.com/reel/1042510776966623"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Yuriria Sierra conversa con Antonio Villalpando sobre resultados PISA
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=iXmTOHNHxko"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Antonio Villalpando explica que gobierno federal invierte en becas y olvida aprendizaje
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      Antonio Villalpando-Acuña · Ciudad de México · 2026
+    </div>
+  </footer>
 
 </body>
 </html>
